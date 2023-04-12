@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../components/Navbar";
+// import Navbar from "../components/Navbar";
 import TableCoin from "../components/TableCoin";
 import { useEffect, useState } from "react";
 import axios from "axios";
@@ -18,7 +18,7 @@ function Home() {
  
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <div class="container">
          <TableCoin coins ={coin}/>
       
